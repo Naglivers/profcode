@@ -4,26 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prof. Ajax</title>
 </head>
 <style>
-    * {
-      box-sizing: border-box;
-    }
-    
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    header {
-      background-color: #666;
-      padding: 30px;
-      text-align: center;
-      font-size: 35px;
-      color: white;
-    }
-    
-    footer {
+        footer {
       background-color: white;
       padding: 10px;
       text-align: center;
@@ -31,6 +15,62 @@
     }
 </style>
 <body>
-    <h1>Professor Ajax</h1>
+    <header>
+        <img src="download.jpg" width="1350" height="333">
+        <a href="index.html"><strong>Inicio</strong></a>
+        <a href="form.html"><strong>Agendar Aula</strong></a>
+        <a href="musica.html"><strong>Musica Para Programar</strong></a>
+        <a href="hworld.html"><strong>Hello World</strong></a>
+    </header>
+    <body>
+        <header>
+            <h1 style="color: white;"> Dr Robervando Paixão</h1> <br>
+        </header>    
+          <main>
+            <h1><strong>Agende Sua Aula</strong></h1>
+         <strong>Nome:</strong><br>
+         <input type="text" name="txtnome" required autofocus>
+         <br><br>
+         <strong>Email:</strong><br>
+         <input type="text" name="txtemail" required>
+         <br><br>
+         <strong>Telefone:</strong><br>
+         <input type="tel" name="tel" required>
+         <br><br>
+         <strong>Lingua de Estudo</strong>
+         <br>
+         <select name="consultorio">
+            <option value="con1">Python </option>
+            <option value="con2">C#</option>
+            <option value="con3">R </option>
+            <option value="con4">Java </option>
+        </select>
+        <br><br>
+        <strong>Data da aula</strong>
+        <br>
+        <input type="date" required>
+        <br><br>
+        <strong>Como você chegou no nosso site?</strong>
+        <br>
+        <select name="chegou">
+            <option value="c1">Google</option>
+            <option value="c2">Indicação</option>
+            <option value="c3">Propagandas</option>
+        </select>
+        <br><br>
+        <strong>Mensagem</strong>
+        <br>
+        <textarea name="msg" cols="50" rows="5"></textarea> 
+        <br><br>
+        <button>
+            Enviar
+        </button>
+          </main>
+          
+          <footer>
+              Lucas Neves Ventura
+              <br>
+              <strong>2022</strong>
+          </footer>
 </body>
 </html>
